@@ -12,6 +12,7 @@ This project demonstrates the use of convolutional neural networks (CNNs) to cla
 4. **Evaluation**: Metrics include precision, recall, F1-score, and confusion matrix analysis.
 
 ## Project Structure
+```kotlin
 pneumonia-detection-CNN/
 ├── README.md
 ├── requirements.txt
@@ -33,6 +34,7 @@ pneumonia-detection-CNN/
 │   ├── recall_plot.png
 ├── LICENSE
 └── .gitignore
+```
 
 ## Installation
 1. Clone the repository:
