@@ -1,11 +1,11 @@
-# **Pneumonia Detection Using Convolutional Neural Networks (CNNs)**
+### AI-Driven Pneumonia Detection Using CNNs and VGG16
 
-## **Project Overview**
+#### **Project Overview**
 This project leverages **Convolutional Neural Networks (CNNs)** to classify chest X-ray images as either **Normal** or **Pneumonia**. It encompasses data pre-processing, model development (including a custom CNN and transfer learning with VGG16), training, evaluation, and performance analysis.
 
 ---
 
-## **Motivation**
+#### **Motivation**
 Pneumonia is a significant health concern worldwide, especially in children and the elderly. Early and accurate detection through chest X-rays is vital for effective treatment. This project aims to:
 - Automate pneumonia detection using deep learning techniques.
 - Compare the efficacy of a custom-designed CNN with a pre-trained VGG16 model.
@@ -13,7 +13,7 @@ Pneumonia is a significant health concern worldwide, especially in children and 
 
 ---
 
-## **Dataset Description**
+#### **Dataset Description**
 - **Source**: The dataset is sourced from the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset on Kaggle.
 - **Structure**:
   - **Training Set**: 5,216 images (3,875 Pneumonia, 1,341 Normal)
