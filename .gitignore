@@ -1,0 +1,14 @@
+# Python-specific files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Data files
+data/
+*.csv
+
+# Results and logs
+*.png
+*.log
+results/
+

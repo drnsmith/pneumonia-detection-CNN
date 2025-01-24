@@ -1,0 +1,10 @@
+Include all the libraries your project depends on:
+```plaintext
+tensorflow==2.9.0
+keras==2.9.0
+numpy
+pandas
+matplotlib
+scikit-learn
+jupyter
+
