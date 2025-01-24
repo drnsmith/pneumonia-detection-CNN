@@ -21,18 +21,17 @@ Pneumonia is a significant health concern worldwide, especially in children and 
   - **Test Set**: 624 images (390 Pneumonia, 234 Normal)
 - **Pre-processing**:
   - Images were resized to 224x224 pixels.
-  - Applied normalization to scale pixel values.
-  - Data augmentation techniques (e.g., rotation, flipping) were employed to enhance model generalization.
+  - Applied normalisation to scale pixel values.
+  - Data augmentation techniques (e.g., rotation, flipping) were employed to enhance model generalisation.
 
 ---
 
 ## **Model Architectures**
-
 ### **1. Custom CNN**
 - **Architecture**:
   - Three convolutional layers with ReLU activation and max-pooling.
   - Two fully connected layers leading to a softmax output.
-- **Regularization**:
+- **Regularisation**:
   - Dropout layers to prevent overfitting.
 - **Optimizer**:
   - Adam optimizer with a learning rate of 0.001.
@@ -86,19 +85,19 @@ Pneumonia is a significant health concern worldwide, especially in children and 
 ---
 
 ## **Installation**
-
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/drnsmith/pneumonia-detection-CNN.git
 cd pneumonia-detection-CNN
 ```
-
 ## **2. Install Dependencies**
 To install the required dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
+---
+
 ## Usage
 ### **1. Prepare the Dataset**
 Download the dataset from Kaggle.
@@ -126,6 +125,8 @@ Run the `evaluate.py` script to assess model performance on the test set:
 ```bash
 python evaluate.py
 ```
+---
+
 ## Future Enhancements
 ### **1. Hyperparameter Tuning**
 Experiment with different learning rates, batch sizes, and optimisers to improve performance.
@@ -135,6 +136,23 @@ Incorporate more diverse datasets to enhance model robustness and generalisation
 
 ### **3. Model Interpretability**
 Implement techniques like Grad-CAM or similar methods to visualise regions of interest in X-ray images and improve model explainability.
+
+---
+
+## Contributing
+We welcome contributions to enhance the functionality and performance of this system. Please fork the repository and submit a pull request with your proposed changes.
+
+---
+
+## Repository History Cleaned
+
+As part of preparing this repository for collaboration, its commit history has been cleaned. This action ensures a more streamlined project for contributors and removes outdated or redundant information in the history. 
+
+The current state reflects the latest progress as of 24/01/2025.
+
+For questions regarding prior work or additional details, please contact the author.
+
+---
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
