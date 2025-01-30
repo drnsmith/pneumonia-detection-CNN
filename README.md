@@ -1,11 +1,11 @@
-### AI-Driven Pneumonia Detection Using CNNs and VGG16
+## AI-Driven Pneumonia Detection Using CNNs and VGG16
 
-#### **Project Overview**
+### **Project Overview**
 This project leverages **Convolutional Neural Networks (CNNs)** to classify chest X-ray images as either **Normal** or **Pneumonia**. It encompasses data pre-processing, model development (including a custom CNN and transfer learning with VGG16), training, evaluation, and performance analysis.
 
 ---
 
-#### **Motivation**
+### **Motivation**
 Pneumonia is a significant health concern worldwide, especially in children and the elderly. Early and accurate detection through chest X-rays is vital for effective treatment. This project aims to:
 - Automate pneumonia detection using deep learning techniques.
 - Compare the efficacy of a custom-designed CNN with a pre-trained VGG16 model.
@@ -13,7 +13,7 @@ Pneumonia is a significant health concern worldwide, especially in children and 
 
 ---
 
-#### **Dataset Description**
+### **Dataset Description**
 - **Source**: The dataset is sourced from the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset on Kaggle.
 - **Structure**:
   - **Training Set**: 5,216 images (3,875 Pneumonia, 1,341 Normal)
@@ -26,8 +26,8 @@ Pneumonia is a significant health concern worldwide, especially in children and 
 
 ---
 
-## **Model Architectures**
-### **1. Custom CNN**
+### **Model Architectures**
+## **1. Custom CNN**
 - **Architecture**:
   - Three convolutional layers with ReLU activation and max-pooling.
   - Two fully connected layers leading to a softmax output.
@@ -36,7 +36,7 @@ Pneumonia is a significant health concern worldwide, especially in children and 
 - **Optimizer**:
   - Adam optimizer with a learning rate of 0.001.
 
-### **2. VGG16 Transfer Learning**
+## **2. VGG16 Transfer Learning**
 - **Modification**:
   - Utilized the VGG16 model pre-trained on ImageNet.
   - Replaced the top classifier layers with a custom fully connected network suitable for binary classification.
@@ -136,6 +136,13 @@ Incorporate more diverse datasets to enhance model robustness and generalisation
 
 ### **3. Model Interpretability**
 Implement techniques like Grad-CAM or similar methods to visualise regions of interest in X-ray images and improve model explainability.
+
+---
+### Productisation  
+This pneumonia detection system can be transformed into a **cloud-based AI diagnostic tool** for healthcare providers, offering **real-time analysis of chest X-rays** to support radiologists in early pneumonia detection. By integrating with **hospital information systems (HIS) or telemedicine platforms**, the model can provide **automated pre-screening**, reducing workload and improving diagnostic speed. Additional features like **explainability with Grad-CAM visualisations** can enhance trust and usability in clinical settings.
+
+### Monetisation  
+The system can be monetised through a **subscription-based SaaS model**, allowing clinics and hospitals to access **AI-powered X-ray diagnostics on demand**. Licensing the **model as an API** for integration into **existing radiology software** offers another revenue stream. Partnerships with **telehealth companies** and **medical research institutions** can further expand market reach, with premium offerings like **custom model tuning for specific datasets or regulatory compliance adaptations**.
 
 ---
 
